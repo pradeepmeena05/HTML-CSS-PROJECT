@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+   background-color: rgb(0, 0, 0);
+}
+#main{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+#profile{
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    
+
+}
+#profile img{
+        width: 150px;
+        height: 150px;
+        border: 2px solid black;
+        border-radius: 50%;
+        margin-top: 40px;
+          transition: 1s;
+}
+#profile img:hover{
+    
+    transform: scale(1.2);
+   
+}
+#profile h1{
+    color: white;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+#profile span{
+    margin-top: 10px;
+    color: rgb(16, 147, 96);
+    
+}
+#profile h2{
+    font-weight: 10;
+    color: white;
+}
+
+#link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    margin-top: 50px;
+    width: 100%;
+   
+}
+#link #gfg{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+    width: 600px;
+    height: 50px;
+    background-color:white;
+    border-radius: 50px;
+    
+}
+#link #gfg a{
+    text-decoration: none;
+     color:rgb(0, 0, 0);
+     font-size: 20px;
+   
+}
+#link #gfg:hover{
+background-color:rgb(54, 183, 75)
+}
+
+
+#link #leet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 50px;
+    background-color:white;
+    border-radius: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#link #leet a{
+    text-decoration: none;
+     color:black;
+     font-size: 20px;
+}
+#link #leet:hover{
+    background-color: rgb(181, 181, 37);
+
+}
+#link #git{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 50px;
+    background-color:white;
+    border-radius: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#link #git a{
+    text-decoration: none;
+     color:black;
+     font-size: 20px;
+}
+#link #git:hover{
+    background-color: rgb(149, 131, 131);
+}
+#link #linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 50px;
+    background-color:white;
+    border-radius: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#link #linkedin a{
+    text-decoration: none;
+     color:black;
+     font-size: 20px;
+}
+#link #linkedin:hover{
+    background-color: rgb(24, 67, 195);
+}
